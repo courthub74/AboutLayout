@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    background-color: rgb(3, 47, 3);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap');
+
+body {
+    margin: 0em 2em 0 2em;
+    // TITLE AND WORDS
+    .about_section_content {
+        // border: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2em;
+        margin-top: 3em;
+        // THE TITLE DIV
+        .title_nav {
+            // THE TITLE WORDS
+            .section_title {
+                font-weight: bold;
+                font-size: 2rem;
+            }
+        }
+        // THE PARAGRAPH DIV
+        .about_words {
+            width: 85%;
+            // THE PARAGRAPH WORDS 
+            p {
+                line-height: 2em;
+            }
+        }
+        // THE RESUME DLOAD BUTTON 
+        .resume_dload {
+            // the actual link
+            background-color: white; 
+            width: 60%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            a {
+                color: rgb(3, 47, 3);
+                background-color: white;
+                text-decoration: none;
+                font-weight: bold;
+            }
+        }
+    }
+
+}
