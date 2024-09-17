@@ -20,6 +20,7 @@ body .second_about_section .title_two {
   flex-direction: column;
   justify-content: center;
   gap: 2.5em;
+  margin: -5em 0 0 0;
 }
 body .second_about_section .title_two .section_title_two {
   font-weight: bold;
