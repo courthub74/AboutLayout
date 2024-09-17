@@ -81,4 +81,41 @@ body .skills_section {
   flex-direction: column;
   justify-content: center;
   padding: 0 3em 0 3em;
+}
+body .skills_section .title_three {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3em 0 3em;
+}
+body .skills_section .title_three .section_title_three {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+body .skills_section .title_three .skills_circles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 2em;
+}
+body .skills_section .title_three .skills_circles .top_3 {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+body .skills_section .title_three .skills_circles .next_3 {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+body .skills_section .title_three .circle_ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(5, 5, 62);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
