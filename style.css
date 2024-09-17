@@ -1,32 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap");
 * {
   margin: 0;
-  background-color: rgb(3, 47, 3);
   color: white;
   font-family: "Inter", sans-serif;
 }
 
-body {
-  margin: 0em 2em 0 2em;
-}
-body .about_section_content {
+body .second_about_section {
+  background-color: rgb(5, 5, 62);
+  background-color: rgb(3, 47, 3);
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 2em;
-  margin-top: 3em;
+  padding: 0 0 0 3em;
 }
-body .about_section_content .title_nav .section_title {
+body .second_about_section .title_two {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5em;
+}
+body .second_about_section .title_two .section_title_two {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
-body .about_section_content .about_words {
+body .second_about_section .title_two .about_words_two {
   width: 85%;
 }
-body .about_section_content .about_words p {
+body .second_about_section .title_two .about_words_two p {
   line-height: 1.5em;
 }
-body .about_section_content .resume_dload {
+body .second_about_section .title_two .resume_dload_two {
   background-color: white;
   width: 60%;
   padding-top: 10px;
@@ -34,9 +39,46 @@ body .about_section_content .resume_dload {
   display: flex;
   justify-content: center;
 }
-body .about_section_content .resume_dload a {
+body .second_about_section .title_two .resume_dload_two a {
   color: rgb(3, 47, 3);
   background-color: white;
   text-decoration: none;
   font-weight: bold;
+}
+body .portfolio_section {
+  background-color: rgb(5, 5, 62);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3em 0 3em;
+}
+body .portfolio_section .title_three {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5em;
+}
+body .portfolio_section .title_three .section_title_three {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+body .portfolio_section .title_three .portfolio_squares {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+}
+body .portfolio_section .title_three .portfolio_squares .square_ {
+  background-color: rgb(117, 117, 188);
+  padding: 4em 1em;
+}
+body .skills_section {
+  background-color: rgb(3, 47, 3);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3em 0 3em;
 }/*# sourceMappingURL=style.css.map */

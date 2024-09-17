@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    background-color: rgb(3, 47, 3);
     color: white;
     font-family: 'Inter', sans-serif;
 }
@@ -9,47 +8,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap');
 
 body {
-    margin: 0em 2em 0 2em;
-    // TITLE AND WORDS
-    .about_section_content {
-        // border: 1px solid white;
+    // SECOND ABOUT CONTENT
+    .second_about_section {
+        background-color: rgb(5, 5, 62);
+        background-color: rgb(3, 47, 3);
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 2em;
-        margin-top: 3em;
-        // THE TITLE DIV
-        .title_nav {
-            // THE TITLE WORDS
-            .section_title {
-                font-weight: bold;
-                font-size: 2rem;
-            }
-        }
-        // THE PARAGRAPH DIV
-        .about_words {
-            width: 85%;
-            // THE PARAGRAPH WORDS 
-            p {
-                line-height: 1.5em;
-            }
-        }
-        // THE RESUME DLOAD BUTTON 
-        .resume_dload {
-            // the actual link
-            background-color: white; 
-            width: 60%;
-            padding-top: 10px;
-            padding-bottom: 10px;
+        padding: 0 0 0 3em;
+        // SECOND TITLE DIV
+        .title_two {
+            // SECOND TITLE WORDS AND CONTENT
+            // background-color: black;
+            width: 100%;
             display: flex;
+            flex-direction: column;
             justify-content: center;
-            a {
-                color: rgb(3, 47, 3);
-                background-color: white;
-                text-decoration: none;
+            gap: 2.5em;
+            .section_title_two {
                 font-weight: bold;
+                font-size: 2.5rem;
+            }
+            // THE SECOND PARAGRAPH DIV
+            .about_words_two {
+                width: 85%;
+                // THE PARAGRAPH WORDS 
+                p {
+                    line-height: 1.5em;
+                    // line-height: 2.5em;
+                }
+            }
+            // THE RESUME DOWNLOAD BUTTON
+            .resume_dload_two {
+                // the actual link
+                background-color: white; 
+                width: 60%;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                display: flex;
+                justify-content: center;
+                a {
+                    color: rgb(3, 47, 3);
+                    // color: rgb(5, 5, 62);
+                    background-color: white;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
             }
         }
     }
-
+    // PORTFOLIO SECTION 
+    .portfolio_section {
+        background-color: rgb(5, 5, 62);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 3em 0 3em;
+        // ALL THE CONTENT 
+        .title_three {
+            // background-color: black;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 2.5em;
+            .section_title_three {
+                font-weight: bold;
+                font-size: 2.5rem;
+            }
+            // PORTFOLIO SQUARES
+            .portfolio_squares {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 2em;
+                .square_ {
+                    background-color: rgb(117, 117, 188);
+                    padding: 4em 1em;
+                }
+            }
+        }
+    }
+    // SKILLS SECTION 
+    .skills_section {
+        background-color: rgb(3, 47, 3);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 3em 0 3em;
+        
+    }
 }
